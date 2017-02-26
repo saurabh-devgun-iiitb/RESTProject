@@ -1,0 +1,73 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  	table{
+  		border-spacing:7px;
+  		border-collapse:separate;
+  		table-layout:fixed;
+  		width:300px;
+  	}
+  </style>
+</head>
+<body>
+	<div align="center">
+	    <h2>eBay REST API</h2>
+	    <h4>Saurabh Devgun</h4>
+	    <h5>MT2015101</h5>
+    </div>
+    <div class = "container">
+    <table class="table table-hover table-striped table-bordered" style="border-spacing:5px">
+      <thead>
+        <tr>
+          <th>REST Services Exposed</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Front End: Price Subcategory API</td>
+          <td><a href="priceAPI.jsp">http://192.168.15.101:8080/eBayREST/priceAPI.jsp</a></td>
+        </tr>
+        <tr>
+          <td>Back End: Seller With Pin</td>
+          <td><a href="sellerWithPin.jsp">http://192.168.15.101:8080/eBayREST/sellerWithPin.jsp</a></td>
+        </tr>
+        <tr>
+          <td>Open Source: Facebook Login</td>
+          <td><a href="loginThroughFacebook.jsp">http://192.168.15.101:8080/eBayREST/loginThroughFacebook.jsp</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <br><br><br>
+    <div class="container">
+    	<table class="table table-hover table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>REST Service Consumed</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Front-End: Display Seller Details with Age less than given age<br>Vikas Pandey<br>MT2015127</td>
+          <td><a href="http://192.168.15.127:8080/eBayREST/GUI.jsp">http://192.168.15.127:8080/eBayREST/GUI.jsp</a></td>
+        </tr>
+        <tr>
+          <td>Back-end: lessThanDiscount(input:discount)<br>Items with discount less than specified<br>Aditya Tiwari<br>MT2015006</td>
+          <td><a href="http://192.168.15.6:8080/eBayREST/itemDiscount.jsp">http://192.168.15.6:8080/eBayREST/itemDiscount.jsp</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <!-- 
+    <p><a href="priceAPI.jsp">Price API</a></p>
+    <p><a href="loginThroughFacebook.jsp">Login through Facebook</a></p>
+    <p><a href="sellerWithPin.jsp">Get Sellers In City with pin</a></p> 
+    -->
+</body>
+</html>
